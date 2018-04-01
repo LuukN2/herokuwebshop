@@ -18,10 +18,17 @@ Breadcrumbs::register('puzzels', function ($breadcrumbs) {
 });
 
 // Home -> Admin
+Breadcrumbs::register('admin', function ($breadcrumbs) {
+    $breadcrumbs->parent('home');
+    $breadcrumbs->push('Admin', route('admin'));
+});
+
+// Home -> about
 Breadcrumbs::register('about', function ($breadcrumbs) {
     $breadcrumbs->parent('home');
     $breadcrumbs->push('About', route('about'));
 });
+
 
 // home -> Products
 Breadcrumbs::register('products', function ($breadcrumbs) {
