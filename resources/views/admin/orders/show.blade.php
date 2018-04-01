@@ -7,7 +7,6 @@
 @endsection
  
 @section('content')
-@if(Auth::User()->admin == 1)
     {!! Breadcrumbs::render('show_order') !!}
     <div class="container">
         <div class="row">
@@ -35,5 +34,4 @@
             </div>
         </div>
     </div>
- @endif
 @endsection
