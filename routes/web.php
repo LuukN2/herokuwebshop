@@ -16,7 +16,7 @@ Route::get('/', function () {
 })->name('home');
 
 //home route
-Route::Get('/about', 'HomeController@about');
+Route::Get('/about', 'HomeController@about')->('about');
 
 // product routes
 Route::get('bordspellen', 'ProductController@boardGames')->name('boardgames');
