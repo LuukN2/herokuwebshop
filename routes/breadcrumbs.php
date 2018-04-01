@@ -64,12 +64,12 @@ Breadcrumbs::register('new_category', function ($breadcrumbs) {
 
 Breadcrumbs::register('user_orders', function ($breadcrumbs) {
     $breadcrumbs->parent('home');
-    $breadcrumbs->push('Beheer Producten', route('user_orders'));
+    $breadcrumbs->push('Orders', route('user_orders'));
 });
 
 Breadcrumbs::register('user_order', function ($breadcrumbs) {
     $breadcrumbs->parent('user_orders');
-    $breadcrumbs->push('Beheer Producten', route('user_order'));
+    $breadcrumbs->push('Bekijk order', route('user_order'));
 });
 
 Breadcrumbs::register('orders', function ($breadcrumbs) {
