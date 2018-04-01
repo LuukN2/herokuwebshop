@@ -36,7 +36,7 @@ Route::get('/cart/destroy/{id}', 'CartController@destroy');
 // order routes
 Route::get('/orders', 'OrderController@index')->name('user_orders');
 Route::post('/cart/save', 'OrderController@makeOrder');
-Route::Get('/orders/show', 'OrderController@userShow')->('user_order');
+Route::Get('/orders/show', 'OrderController@userShow')->name('user_order');
 
 // product admin routes
 Route::get('/admin/products', 'ProductController@adminIndex')->name('products');
