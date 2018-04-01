@@ -7,7 +7,7 @@
 @endsection
  
 @section('content')
-    {!! Breadcrumbs::render('show_order') !!}
+    {!! Breadcrumbs::render('user_order') !!}
     <div class="container">
         <div class="row">
             <div class="col-md-12">

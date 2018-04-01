@@ -76,6 +76,6 @@ class OrderController extends Controller
         foreach($order as $o){
             array_push($products, [Product::find($o->product_id), $o->amount]);
         }
-        return view('admin.orders.show',['products' => $products]); 
+        return view('orders.show',['products' => $products]); 
     }
 }

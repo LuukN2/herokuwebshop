@@ -62,6 +62,16 @@ Breadcrumbs::register('new_category', function ($breadcrumbs) {
     $breadcrumbs->push('Nieuwe Category', route('new_category'));
 });
 
+Breadcrumbs::register('user_orders', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin');
+    $breadcrumbs->push('Beheer Producten', route('user_orders'));
+});
+
+Breadcrumbs::register('user_order', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin');
+    $breadcrumbs->push('Beheer Producten', route('user_order'));
+});
+
 Breadcrumbs::register('orders', function ($breadcrumbs) {
     $breadcrumbs->parent('admin');
     $breadcrumbs->push('Beheer Orders', route('orders'));

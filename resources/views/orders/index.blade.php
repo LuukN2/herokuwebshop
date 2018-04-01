@@ -1,4 +1,5 @@
 @extends('layouts.master') @section('Orders', 'Page Title') @section('sidebar') @parent @endsection @section('content')
+   {!! Breadcrumbs::render('user_orders') !!}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
