@@ -13,37 +13,37 @@ class UserTableSeeder extends Seeder
     {
         DB::table('navigations')->insert([
             'name' => 'Bordspellen',
-            'url' => 'bordspellen'
+            'url' => 'bordspellen',
             'admin' => 0,
         ]);
         
         DB::table('navigations')->insert([
             'name' => 'Puzzels',
-            'url' => 'puzzels'
+            'url' => 'puzzels',
             'admin' => 0,
         ]);
         
         DB::table('navigations')->insert([
             'name' => 'About',
-            'url' => 'about'
+            'url' => 'about',
             'admin' => 0,
         ]);
         
         DB::table('navigations')->insert([
             'name' => 'Beheer producten',
-            'url' => 'admin/products'
+            'url' => 'admin/products',
             'admin' => 1,
         ]);
         
         DB::table('navigations')->insert([
             'name' => 'Beheer categories',
-            'url' => 'admin/categories'
+            'url' => 'admin/categories',
             'admin' => 1,
         ]);
         
         DB::table('navigations')->insert([
             'name' => 'Beheer Orders',
-            'url' => 'admin/orders'
+            'url' => 'admin/orders',
             'admin' => 1,
         ]);
     }
