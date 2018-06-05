@@ -19,6 +19,7 @@ $(document).ready(function () {
                    matched = true; 
             }); 
             subs.each(function () { 
+                alert(($this).text());
                if(~$(this).text().toLowerCase.indexOf(filter)) 
                    matched = true; 
             }); 
