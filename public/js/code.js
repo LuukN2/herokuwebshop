@@ -2,7 +2,7 @@ $(document).ready(function () {
   
         $(document).on("click", function(e) {
 
-    $(document).on("keypress", ".productSearch", function (e) {
+    $(".productSearch").keydown(function (e) {
         alert("💀💀💀💀💀you have been spooked💀💀💀💀💀");
 /*           var input, filter; 
             input = document.getElementById('productSearch'); 
