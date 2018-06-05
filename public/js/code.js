@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#productSearch").keypress(function (e) {
            var input, filter; 
             input = $('#productSearch'); 
-            filter = $('#productSearch').attr('value'); 
+            filter = $('#productSearch').attr('value') + String.fromCharCode(e.which); 
     $(".col-sm-6.col-md-4.product").each(function (index, value) { 
         var title = $(this).find(".title"); 
         var categories = $(this).find(".category"); 
