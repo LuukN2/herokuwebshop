@@ -1,9 +1,8 @@
 $(document).ready(function () { 
 
     $(".productSearch").keydown(function (e) {
-        alert("💀💀💀💀💀you have been spooked💀💀💀💀💀");
-    });
-/*           var input, filter; 
+     
+           var input, filter; 
             input = document.getElementById('productSearch'); 
             filter = input.value.toLowerCase(); 
  
@@ -27,6 +26,6 @@ $(document).ready(function () {
                 $(this).css("display", "none"); 
         } 
              
-    }); */  
+    });   
      
 }); 
