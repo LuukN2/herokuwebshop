@@ -41,3 +41,7 @@
 .categories {
     padding: 20;
 }
+
+.col-sm-6.col-md-4.product (
+    padding: 40;
+)

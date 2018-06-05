@@ -11,7 +11,7 @@
 
             <div class="col-sm-6 col-md-4 product">
                 <div class="thumbnail">
-                    <img src="{{$product->imageurl}}" class="img-responsive" onerror="this.src='https://risibank.fr/cache/stickers/d650/65048-full.png'">
+                    <img src="{{$product->imageurl}}" class="img-responsive" onerror="this.src='https://risibank.fr/cache/stickers/d650/65048-full.png'" height="250" width="200">
 
                     <div class="caption">
 
