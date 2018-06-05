@@ -1,6 +1,6 @@
 $(document).ready(function () { 
    alert("test");
-    $(document).on("keypress", ".productSearch", function (e) { 
+    /*$(document).on("keypress", ".productSearch", function (e) { 
            var input, filter; 
             input = document.getElementById('productSearch'); 
             filter = input.value.toLowerCase(); 
@@ -26,6 +26,6 @@ $(document).ready(function () {
         } 
              
     });  
-    }); 
+    }); */
      
 }); 
