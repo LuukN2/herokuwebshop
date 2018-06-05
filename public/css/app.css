@@ -29,7 +29,7 @@
     padding: 15;
     border-radius: 15px;
     border-width: 1px;
-    height: 600px; 
+    
 }
 
 .whitebackground {
@@ -43,7 +43,7 @@
     padding: 20;
 }
 
-.img-responsive{
-    width: 200px;
-    height: 250px;
+.thumbnail{
+    height: 600px; 
+    width: 300px;
 }
