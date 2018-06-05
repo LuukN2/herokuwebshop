@@ -63,7 +63,7 @@
                         <div class="col-md-9">
                             <select multiple name="categories[]">
                                 @foreach($categories as $category)
-                                    @if($category->subcategories() != false)
+                                    @if($category->subcategories())
                                         <optgroup label="{{$category->name}}">
                                             @foreach($category->subcategories() as $sub)
                                                 <option value="{{$sub->id}}">{{$sub->name}}</option>

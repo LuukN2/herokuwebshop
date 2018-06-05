@@ -34,7 +34,7 @@
                         <div class="row">
                             <div class="categories">
                                 @foreach($product->categories as $category) 
-                                @if($category->subcategories() != false)
+                                @if($category->subcategories())
                                 <div>
                                     <label><b>{{$category->name}}</b></label> 
                                     @foreach($category->subcategories() as $sub)
