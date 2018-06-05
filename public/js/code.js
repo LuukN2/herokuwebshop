@@ -1,12 +1,13 @@
 $(document).ready(function () { 
 
     $(".productSearch").keydown(function (e) {
-     alert("👽");
+     
            var input, filter; 
             input = document.getElementById('productSearch'); 
             filter = input.value.toLowerCase(); 
  
     $(".col-sm-6.col-md-4.product").each(function () { 
+        alert("👽");
         var title = $(this).find(".title"); 
         var categories = $(this).find(".category"); 
         var subs = $(this).find(".sub"); 
