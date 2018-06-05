@@ -2,12 +2,13 @@
 {!! Breadcrumbs::render(strtolower($type)) !!}
 <div class="card">
     <h1>{{$type}}</h1>
+    <input id="productSearch" type="text">
 </div>
 <br>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <input id="productSearch" type="text">
+            
             @foreach ($products as $product)
 
             <div class="col-sm-6 col-md-4 product">
