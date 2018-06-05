@@ -22,6 +22,7 @@ const app = new Vue({
 });
 
 $(document).ready(function () { 
+    alert('👽');
     $(document).on("keypress", ".productSearch", function (e) { 
            var input, filter; 
             input = document.getElementById('productSearch'); 
