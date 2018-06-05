@@ -1,8 +1,9 @@
 $(document).ready(function () { 
 
     $(".productSearch").keydown(function (e) {
-     
+     alert("👽👽👽👽👽👽");
            var input, filter; 
+        alert("👽👽👽👽");
             input = $('#productSearch'); 
             filter = input.value.toLowerCase(); 
             alert("👽👽👽");
