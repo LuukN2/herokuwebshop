@@ -6,7 +6,7 @@ $(document).ready(function () {
         alert("👽👽👽👽");
             input = $('#productSearch'); 
         alert("👽👽");
-            filter = input.val().toLowerCase(); 
+            filter = toLowerCase(input.val()); 
             alert("👽👽👽");
     $(".col-sm-6.col-md-4.product").each(function (index, value) { 
         alert("👽");
