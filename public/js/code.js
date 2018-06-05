@@ -1,6 +1,6 @@
 $(document).ready(function () { 
 
-    $("#productSearch").input(function (e) {
+    $("#productSearch").on("input", function () {
            var input, filter; 
             input = $('#productSearch'); 
             filter = $('#productSearch').attr('value'); 
