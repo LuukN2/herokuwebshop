@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(".productSearch").keydown(function (e) {
      
            var input, filter; 
-            input = document.getElementById('productSearch'); 
+            input = $('#productSearch'); 
             filter = input.value.toLowerCase(); 
             alert("👽👽👽");
     $(".col-sm-6.col-md-4.product").each(function (index, value) { 
