@@ -20,7 +20,9 @@ $(document).ready(function () {
             }); 
             subs.each(function () { 
                 alert(($this).text());
-               if(~$(this).text().toLowerCase.indexOf(filter)) 
+               if(~$(this).text().toLowerCase.indexOf(filter)) {
+
+               }
                    //matched = true; 
             }); 
             if(!matched) 
