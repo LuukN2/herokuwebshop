@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <input class="productSearch" type="text">
+            <input id="productSearch" type="text">
             @foreach ($products as $product)
 
             <div class="col-sm-6 col-md-4 product">
