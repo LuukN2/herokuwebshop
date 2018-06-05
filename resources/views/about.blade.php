@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('content')
+
 {!! Breadcrumbs::render('about') !!}
 <div class="container">
     <div class="whitebackground">
@@ -15,4 +15,3 @@
     </div>
 </div>
  
-@endsection
