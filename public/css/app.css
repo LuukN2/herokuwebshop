@@ -14,7 +14,7 @@
     padding: 15;
     border-radius: 15px;
     border-width: 1;
-
+    height: 600px; 
 }
 
 .shopheader 
@@ -42,6 +42,3 @@
     padding: 20;
 }
 
-.col-sm-6.col-md-4.product (
-    padding: 40;
-)
