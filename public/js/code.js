@@ -1,6 +1,6 @@
 $(document).ready(function () { 
 
-    $("#productSearch").keydown(function (e) {
+    $("#productSearch").keypress(function (e) {
            var input, filter; 
             input = $('#productSearch'); 
             filter = $('#productSearch').attr('value'); 
