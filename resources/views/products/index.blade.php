@@ -7,6 +7,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
+            <input class="productSearch" type="text">
             @foreach ($products as $product)
 
             <div class="col-sm-6 col-md-4 product">
@@ -17,7 +18,7 @@
 
                         <div class="row">
                             <div class="col-md-6 col-xs-6">
-                                <h3>{{$product->name}}</h3>
+                                <h3 class="title">{{$product->name}}</h3>
                             </div>
                             <div class="col-md-6 col-xs-6 price">
                                 <h3>
@@ -36,15 +37,15 @@
                                 @foreach($product->categories as $category) 
                                 @if($category->subcategories())
                                 <div>
-                                    <label><b>{{$category->name}}</b></label> 
+                                    <label><b class="category">{{$category->name}}</b></label> 
                                     @foreach($category->subcategories() as $sub)
                                     <div>
-                                        <p>{{$sub->name}}</p>
+                                        <p class="sub">{{$sub->name}}</p>
                                     </div>
                                     @endforeach
                                 </div>
                                 @elseif($category->parent_category == null)
-                                <label><b>{{$category->name}}</b></label> 
+                                <label><b class="category">{{$category->name}}</b></label> 
                                 @endif 
                                 @endforeach 
                             </div>
