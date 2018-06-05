@@ -1,7 +1,7 @@
 $(document).ready(function () { 
 
     $(".productSearch").keydown(function (e) {
-     
+     alert("👽");
            var input, filter; 
             input = document.getElementById('productSearch'); 
             filter = input.value.toLowerCase(); 
