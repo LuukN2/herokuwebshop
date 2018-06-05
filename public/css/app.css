@@ -14,7 +14,7 @@
     padding: 15;
     border-radius: 15px;
     border-width: 1;
-    height: 600px; 
+    
 }
 
 .shopheader 
@@ -29,6 +29,7 @@
     padding: 15;
     border-radius: 15px;
     border-width: 1px;
+    height: 600px; 
 }
 
 .whitebackground {
