@@ -8,8 +8,7 @@ $(document).ready(function () {
         var title = $(this).find(".title"); 
         var categories = $(this).find(".category"); 
         var subs = $(this).find(".sub"); 
-        alert(title.text());
-        alert(filter);
+
         if (~title.text().toLowerCase().indexOf(filter)) 
             $(this).css("display", "block"); 
         
