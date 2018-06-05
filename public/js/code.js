@@ -1,15 +1,10 @@
 $(document).ready(function () { 
 
     $(".productSearch").keydown(function (e) {
-     alert("👽👽👽👽👽👽");
            var input, filter; 
-        alert("👽👽👽👽");
             input = $('#productSearch'); 
-        alert("👽👽");
             filter = input.val(); 
-            alert("👽👽👽");
     $(".col-sm-6.col-md-4.product").each(function (index, value) { 
-        alert("👽");
         var title = $(this).find(".title"); 
         var categories = $(this).find(".category"); 
         var subs = $(this).find(".sub"); 
@@ -26,7 +21,10 @@ $(document).ready(function () {
                    matched = true; 
             }); 
             if(!matched) 
-                $(this).css("display", "none"); 
+                $(this).css("display", "none");
+            else {
+                $(this).css("display", "block");
+            }
         } 
              
     });   
