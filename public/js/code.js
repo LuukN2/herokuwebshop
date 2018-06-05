@@ -6,7 +6,7 @@ $(document).ready(function () {
             input = document.getElementById('productSearch'); 
             filter = input.value.toLowerCase(); 
  
-    $(".col-sm-6.col-md-4.product").each(function () { 
+    $(".col-sm-6.col-md-4.product").each(obj function (index, value) { 
         alert("👽");
         var title = $(this).find(".title"); 
         var categories = $(this).find(".category"); 
