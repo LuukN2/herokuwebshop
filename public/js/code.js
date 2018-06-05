@@ -1,5 +1,8 @@
 $(document).ready(function () { 
-   alert("test");
+  
+        $(document).on("click", function(e) {
+            alert("🦍🦍🦍");
+        });
     /*$(document).on("keypress", ".productSearch", function (e) { 
            var input, filter; 
             input = document.getElementById('productSearch'); 
