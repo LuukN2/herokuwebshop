@@ -22,6 +22,7 @@ $(document).ready(function () {
                 alert(($this).text());
                if(~$(this).text().toLowerCase.indexOf(filter)) {
                    matched = true; 
+                   alert($(this).text());
                }
                    
             }); 
