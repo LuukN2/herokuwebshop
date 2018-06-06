@@ -19,7 +19,7 @@
                     <div class="row">
                         <h3>{{$navigation->name}}</h3>
                         <a class="btn btn-primary" href="navigations/edit/{{$navigation->id}}">Bewerken</a>
-                        <a class="btn btn-danger" href="navigation/destroy/{{$navigation->id}}">Verwijderen</a>
+                        <a class="btn btn-danger" href="navigations/destroy/{{$navigation->id}}">Verwijderen</a>
                     </div>
                 </div>
                 @endforeach

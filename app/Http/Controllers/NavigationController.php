@@ -31,7 +31,9 @@ class NavigationController extends Controller
     
     public function save(Request $request) {
         $input = $request->except(['_token','submit']);
-
+        if(!isset($input['admin'])){
+            $input['admin'] = false;
+        }
         Navigation::find($request->id)->update($input);
         
         return redirect('/admin/navigations');
