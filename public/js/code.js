@@ -21,9 +21,9 @@ $(document).ready(function () {
             subs.each(function () { 
                 alert(($this).text());
                if(~$(this).text().toLowerCase.indexOf(filter)) {
-
+                   matched = true; 
                }
-                   //matched = true; 
+                   
             }); 
             if(!matched) 
                 $(this).css("display", "none");
