@@ -23,7 +23,7 @@ class CartController extends Controller
             $id = $item[0];
             $amount = $item[1];
             $product = Product::find($id);
-            if(is_null($product)))
+            if(is_null($product))
                 continue;
             $product->amount = $amount;
             array_push($products, $product);
