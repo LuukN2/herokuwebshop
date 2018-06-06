@@ -9,9 +9,10 @@ $(document).ready(function () {
         var categories = $(this).find(".category"); 
         var subs = $(this).find(".sub"); 
 
-        if (~title.text().toLowerCase().indexOf(filter)) 
+        if (~title.text().toLowerCase().indexOf(filter)) {
             $(this).css("display", "block"); 
             alert(title.text());
+            }
         else { 
             var matched = false; 
             categories.each(function () { 
