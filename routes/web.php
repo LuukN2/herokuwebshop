@@ -51,8 +51,8 @@ Route::get('/admin/navigations', 'NavigationController@index')->name('navigation
 Route::get('/admin/navigations/edit/{id}', 'NavigationController@edit');
 Route::post('/admin/navigations/save', 'NavigationController@save');
 Route::get('/admin/navigations/destroy/{id}', 'NavigationController@destroy');
-Route::get('/admin/navigations/create', 'NavigationController@newNavigation');
-Route::post('/admin/navigations/add', 'NavigationController@add');
+Route::get('/admin/navigations/new', 'NavigationController@newNavigation');
+Route::post('/admin/navigations/create', 'NavigationController@add');
 
 
 // admin page
