@@ -12,6 +12,7 @@ $(document).ready(function () {
         if (~title.text().toLowerCase().indexOf(filter)) {
             $(this).css("display", "block"); 
             alert(title.text());
+            //ree
             }
         else { 
             var matched = false; 
