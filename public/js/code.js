@@ -10,8 +10,9 @@ $(document).ready(function () {
         var subs = $(this).find(".sub"); 
 
         if (~title.text().toLowerCase().indexOf(filter)) {
-            $(this).css("display", "block"); 
             alert(title.text());
+            $(this).css("display", "block"); 
+            
             //ree
             }
         else { 
