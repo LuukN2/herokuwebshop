@@ -13,21 +13,21 @@ $(document).ready(function () {
            
             $(this).css("display", "block"); 
             
-            //ree
+
             }
         else { 
             var matched = false; 
             categories.each(function () { 
                if(~$(this).text().toLowerCase().indexOf(filter)) {
                    matched = true;
-                   alert(($this).text() + " weird");
+
                }
                    
             }); 
            subs.each(function () { 
                if(~$(this).text().toLowerCase().indexOf(filter)) {
                    matched = true;
-                   alert(($this).text() + " weird");
+
                }
                    
             }); 
