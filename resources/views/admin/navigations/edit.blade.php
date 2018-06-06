@@ -38,7 +38,7 @@
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="name">Is admin</label>
                         <div class="col-md-9">
-                            @if($navigation->admin === 0)
+                            @if($navigation->admin == false)
                             <input type="checkbox" name="admin"> 
                             @else
                             <input type="checkbox" name="admin" checked>
