@@ -14,7 +14,7 @@
             <div class="panel-title">Bewerk Navigatie</div>
         </div>
         <div class="panel-body" >
-            <form method="POST" action="/admin/navigations/create" class="form-horizontal" enctype="multipart/form-data" role="form">
+            <form method="POST" action="/admin/navigations/save" class="form-horizontal" enctype="multipart/form-data" role="form">
                 {!! csrf_field() !!}
                 <fieldset>
                     <input type="hidden" name="id" value="{{$navigation->id}}">

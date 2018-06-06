@@ -12,9 +12,9 @@
         <div class="row">
             <div class="col-md-12">
                
-                <h1>Categoriën</h1>
+                <h1>Navigations</h1>
                 <a class="btn btn-primary" href="navigations/new">Nieuwe Navigatie</a>
-                @foreach ($navigations as $category)
+                @foreach ($navigations as $navigation)
                 <div class="card">
                     <div class="row">
                         <h3>{{$navigation->name}}</h3>

@@ -49,7 +49,7 @@ Route::post('/admin/product/save', 'ProductController@add');
 //navigation routes
 Route::get('/admin/navigations', 'NavigationController@index')->name('navigations');
 Route::get('/admin/navigations/edit/{id}', 'NavigationController@edit');
-Route::post('/admin/navigations/editsave', 'NavigationController@save');
+Route::post('/admin/navigations/save', 'NavigationController@save');
 Route::get('/admin/navigations/destroy/{id}', 'NavigationController@destroy');
 Route::get('/admin/navigations/create', 'NavigationController@newNavigation');
 Route::post('/admin/navigations/add', 'NavigationController@add');
