@@ -10,7 +10,7 @@ $(document).ready(function () {
         var subs = $(this).find(".sub"); 
 
         if (~title.text().toLowerCase().indexOf(filter)) {
-            alert(title.text());
+           
             $(this).css("display", "block"); 
             
             //ree
@@ -18,11 +18,14 @@ $(document).ready(function () {
         else { 
             var matched = false; 
             categories.each(function () { 
-               if(~$(this).text().toLowerCase().indexOf(filter)) 
-                   matched = true; 
+               if(~$(this).text().toLowerCase().indexOf(filter)) {
+                   matched = true;
+                   alert(($this).text() + " weird");
+               }
+                   
             }); 
             subs.each(function () { 
-                alert(($this).text());
+                
                if(~$(this).text().toLowerCase.indexOf(filter)) {
                    matched = true; 
                    alert($(this).text());
