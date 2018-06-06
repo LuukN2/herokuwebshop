@@ -37,7 +37,7 @@
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="name">Is admin</label>
                         <div class="col-md-9">
-                            <input type="checkbox" name="admin"> 
+                            {!! Form::checkbox('admin', '1'); !!}
                         </div>
                     </div>
                     

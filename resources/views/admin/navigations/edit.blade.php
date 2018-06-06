@@ -39,9 +39,9 @@
                         <label class="col-md-3 control-label" for="name">Is admin</label>
                         <div class="col-md-9">
                             @if($navigation->admin == false)
-                            <input type="checkbox" name="admin"> 
+                            {!! Form::checkbox('admin', '1', false); !!}
                             @else
-                            <input type="checkbox" name="admin" checked>
+                            {!! Form::checkbox('admin', '1', true); !!}
                             @endif
                         </div>
                     </div>
