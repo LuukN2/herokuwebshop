@@ -11,7 +11,7 @@ $(document).ready(function () {
 
         if (~title.text().toLowerCase().indexOf(filter)) 
             $(this).css("display", "block"); 
-        
+            alert(title.text());
         else { 
             var matched = false; 
             categories.each(function () { 
