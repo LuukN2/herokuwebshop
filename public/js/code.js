@@ -24,11 +24,10 @@ $(document).ready(function () {
                }
                    
             }); 
-            subs.each(function () { 
-                
-               if(~$(this).text().toLowerCase.indexOf(filter)) {
-                   matched = true; 
-                   alert($(this).text());
+           subs.each(function () { 
+               if(~$(this).text().toLowerCase().indexOf(filter)) {
+                   matched = true;
+                   alert(($this).text() + " weird");
                }
                    
             }); 
