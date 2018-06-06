@@ -26,6 +26,9 @@ class OrderController extends Controller
         
         
         foreach($ids as $id){
+            $product = Product::find($id);
+            if(is_null($product))
+                continue;
            $amount = $amounts[$counter];
            $user->products()->attach($id, ['amount'=> $amount, 'id'=> $orderId]);
             $counter += 1;
