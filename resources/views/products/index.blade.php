@@ -2,7 +2,7 @@
 {!! Breadcrumbs::render(strtolower($type)) !!}
 <div class="card">
     <h1>{{$type}}</h1>
-    <input id="productSearch" type="text">
+   <p>Zoeken: <input id="productSearch" type="text"></p>
 </div>
 <br>
 <div class="container">
